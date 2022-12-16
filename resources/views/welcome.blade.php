@@ -44,6 +44,7 @@
             <h1>A Hidden <br>
             Luxurious Retreat</h1>
         </div>
+        <p class="items-center justify-center" style="font-size: 24px; color: white; display: flex; padding-inline: 22rem">GPGP is the 9th world wonder and the Pacific's world renowned variable destination that shifts seasonally and inter-annually with the winds and currents. The iconic view of endless trash floating upon the serene waters is a traveler's paradise.</p>
     </div>
 </body>
 </html>
