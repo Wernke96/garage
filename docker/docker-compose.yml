@@ -1,8 +1,8 @@
 version: '3.7'
 services:
-  pad-web:
+ garage-web:
     image: nginx:latest
-    container_name: sourcetoad_pad_web
+    container_name: garage_web
     environment:
       - VIRTUAL_HOST=pad.docker
     volumes:
@@ -10,8 +10,8 @@ services:
       - ./config/vhost.conf:/etc/nginx/conf.d/vhost.conf
     networks:
       - st-internal
-  pad-code:
-    container_name: sourcetoad_pad_code
+ garage-code:
+    container_name: garage_code
     environment:
       - SSH_AUTH_SOCK=/run/host-services/ssh-auth.sock
       - XDEBUG_CONFIG=remote_host=host.docker.internal
@@ -28,28 +28,8 @@ services:
       - st-internal
     ports:
       - '5173:5173'
-  pad-redis32:
-    image: redis:3.2-alpine
-    command: redis-server --appendonly yes
-    container_name: sourcetoad_pad_redis32
-    networks:
-      - st-internal
-  pad-echo-server:
-    container_name: sourcetoad_pad_echo
-    image: oanhnn/laravel-echo-server
-    depends_on:
-      - pad-redis32
-    environment:
-      LARAVEL_ECHO_SERVER_AUTH_HOST: http://sourcetoad_pad_web
-      LARAVEL_ECHO_SERVER_DEBUG: 'true'
-      LARAVEL_ECHO_SERVER_DB: redis
-      REDIS_HOST: pad-redis32
-      REDIS_PORT: 6379
-      REDIS_PREFIX: null
-    networks:
-      - st-internal
-    ports:
-      - 6014:6001
+ 
+ 
 networks:
   st-internal:
     name: st-internal
