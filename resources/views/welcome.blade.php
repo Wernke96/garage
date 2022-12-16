@@ -28,6 +28,13 @@
                 margin-left: 50px;
                 font-family: Georgia;
             }
+            .discover-more{
+                font-size: 24px;
+                color: #e2e8f0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
             .header-title div {
                 width: 100px;
                 height: 100px;
@@ -45,6 +52,10 @@
             Luxurious Retreat</h1>
         </div>
         <p class="items-center justify-center" style="font-size: 24px; color: white; display: flex; padding-inline: 22rem">GPGP is the 9th world wonder and the Pacific's world renowned variable destination that shifts seasonally and inter-annually with the winds and currents. The iconic view of endless trash floating upon the serene waters is a traveler's paradise.</p>
+        <div class="discover-more">
+            <p>discover <br>
+            </p>
+        </div>
     </div>
     <div>
         <h1 style="display: flex; width: 40rem; font-size: xxx-large; padding-left: 3rem;">It is estimated that 1.15 to 2.41 million tons of plastic are entering the ocean each year from rivers.</h1>
