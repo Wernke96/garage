@@ -18,11 +18,30 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            .header-title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #e2e8f0;
+                margin-top: 150px;
+                font-size: 36px;
+                margin-left: 50px
+            }
+            .header-title div {
+                width: 100px;
+                height: 100px;
+
+            }
         </style>
     </head>
 <body style="background: #009DC4">
     <div style="display: flex; font-size: 5rem">
         <div style="color: white; padding: 1rem; border: .25rem solid white; min-width: 100px; min-height: 100px">GP</div>
+    </div>
+    <div>
+        <div class="header-title">
+            <h2>A Hidden Luxurious Retreat</h2>
+        </div>
     </div>
 </body>
 </html>
