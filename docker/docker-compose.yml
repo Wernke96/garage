@@ -4,7 +4,7 @@ services:
     image: nginx:latest
     container_name: garage_web
     environment:
-      - VIRTUAL_HOST=pad.docker
+      - VIRTUAL_HOST=garage.docker
     volumes:
       - ../:/code:delegated
       - ./config/vhost.conf:/etc/nginx/conf.d/vhost.conf
