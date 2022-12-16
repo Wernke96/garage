@@ -21,6 +21,8 @@
         </style>
     </head>
 <body style="background: #009DC4">
-
+    <div style="display: flex; font-size: 5rem">
+        <div style="color: white; padding: 1rem; border: .25rem solid white; min-width: 100px; min-height: 100px">GP</div>
+    </div>
 </body>
 </html>
