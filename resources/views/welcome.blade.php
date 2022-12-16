@@ -46,5 +46,11 @@
         </div>
         <p class="items-center justify-center" style="font-size: 24px; color: white; display: flex; padding-inline: 22rem">GPGP is the 9th world wonder and the Pacific's world renowned variable destination that shifts seasonally and inter-annually with the winds and currents. The iconic view of endless trash floating upon the serene waters is a traveler's paradise.</p>
     </div>
+    <div>
+        <h1 style="display: flex; width: 40rem; font-size: xxx-large; padding-left: 3rem;">It is estimated that 1.15 to 2.41 million tons of plastic are entering the ocean each year from rivers.</h1>
+    </div>
+    <audio controls autoplay>
+        <source src="" type="">
+    </audio>
 </body>
 </html>
