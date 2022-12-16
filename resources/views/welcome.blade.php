@@ -25,7 +25,8 @@
                 color: #e2e8f0;
                 margin-top: 150px;
                 font-size: 36px;
-                margin-left: 50px
+                margin-left: 50px;
+                font-family: Georgia;
             }
             .header-title div {
                 width: 100px;
@@ -40,7 +41,8 @@
     </div>
     <div>
         <div class="header-title">
-            <h2>A Hidden Luxurious Retreat</h2>
+            <h1>A Hidden <br>
+            Luxurious Retreat</h1>
         </div>
     </div>
 </body>
