@@ -40,6 +40,10 @@
                 height: 100px;
 
             }
+            .background-trash {
+                background: linear-gradient(rgba(0,130,170,0),rgba(0,130,170,1)), url({{ URL::asset('images/trash.png') }});
+                background-size: cover;
+            }
         </style>
     </head>
 <body style="background: #009DC4">
@@ -57,9 +61,13 @@
             </p>
         </div>
     </div>
-    <div>
-        <h1 style="display: flex; width: 40rem; font-size: xxx-large; padding-left: 3rem;">It is estimated that 1.15 to 2.41 million tons of plastic are entering the ocean each year from rivers.</h1>
+
+    <div class="background-trash" style="margin: 0 22rem; overflow: hidden; min-height: 500px">
+        <div>
+            <h1 style="display: flex; width: 40rem; color: white;font-size: xxx-large; padding-left: 3rem;">It is estimated that 1.15 to 2.41 million tons of plastic are entering the ocean each year from rivers.</h1>
+        </div>
     </div>
+
     <audio controls autoplay>
         <source src="" type="">
     </audio>
