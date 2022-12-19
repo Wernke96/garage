@@ -57,7 +57,7 @@
         </div>
         <p class="items-center justify-center" style="font-size: 24px; color: white; display: flex; padding-inline: 22rem">GPGP is the 9th world wonder and the Pacific's world renowned variable destination that shifts seasonally and inter-annually with the winds and currents. The iconic view of endless trash floating upon the serene waters is a traveler's paradise.</p>
         <div class="discover-more">
-            <p>discover <br>
+            <p>Discover <br>
             </p>
         </div>
     </div>
@@ -68,8 +68,10 @@
         </div>
     </div>
 
+    <img src="{{asset('images/Part3.jpg')}}" alt="part3" style="width: 70rem">
+    <img src="{{asset('images/part4.jpg')}}" alt="part3" style="width: 108rem">
     <audio controls autoplay>
-        <source src="" type="">
+        <source src="{{asset('audio/09 - Special.mp3')}}" type="audio/mpeg">
     </audio>
 </body>
 </html>
